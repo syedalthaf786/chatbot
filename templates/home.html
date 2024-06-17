@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>online-book-library</title>
+  <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static',filename='favicon.ico') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="navbar">
+    <a href="#" id="logo">NMREC-eLibrary</a>
+    <a href="home.html" class="active">Home</a>
+    <a href="task8.php">Books</a>
+    <a href="{{url_for('index')}}">chatbot</a>
+    <div class="dropdown">
+      <button class="dropbtn">login
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="">User_login</a>
+        <a href="">Admin_login</a>
+        
+      </div>
+    </div>
+     <a onclick="logout()" id="log">logout</a>
+  </div>
+  <div class="container">
+    <img src="{{ url_for('static',filename='img/logo1.png') }}" width="300px" height="200px">
+    <h2 class="title">
+      <span class="title-word title-word-1">Welcome</span>
+      <span class="title-word title-word-2">to</span>
+      <span class="title-word title-word-3">NMREC</span>
+      <span class="title-word title-word-4">e-library</span>
+    </h2>
+  </div>
+  <h3>NALLA MALLA REDDY ENGINEERING COLLEGE</h3>
+  <script>
+    function logout(){
+      // document.cookie='authToken=;expries=Sat,02,mar 2024 00:00:00 UTC;path=/;'
+      var islogout=confirm("Do you want to logout or not");
+      if(islogout==1){
+      alert("thanks for visting");
+      location.href='singup.php';
+    }
+    else{
+      location.reload();
+    }
+  }
+  </script>
+</body>
+
+
+</html>

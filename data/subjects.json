@@ -1,0 +1,11 @@
+{
+    "cse": {
+      "semester 1": ["physics", "mathematics"],
+      "semester 2": ["chemistry", "programming"]
+    },
+    "ece": {
+      "semester 1": ["circuits", "physics"],
+      "semester 2": ["digital systems", "electronics"]
+    }
+  }
+  

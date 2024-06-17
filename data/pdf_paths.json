@@ -1,0 +1,27 @@
+{
+    "cse": {
+      "semester 1": {
+        "physics": "/pdf_files/cse/sem1/physics.pdf",
+        "mathematics": "/pdf_files/cse/sem1/mathematics.pdf",
+        "previous_papers": "/pdf_files/cse/sem1/previous-papers.pdf"
+      },
+      "semester 2": {
+        "chemistry": "/pdf_files/cse/sem2/chemistry.pdf",
+        "programming": "/pdf_files/cse/sem2/programming.pdf",
+        "previous_papers": "/pdf_files/cse/sem2/previous-papers.pdf"
+      }
+    },
+    "ece": {
+      "semester 1": {
+        "circuits": "/pdf_files/ece/sem1/circuits.pdf",
+        "physics": "/pdf_files/ece/sem1/physics.pdf",
+        "previous_papers": "/pdf_files/ece/sem1/previous-papers.pdf"
+      },
+      "semester 2": {
+        "digital systems": "/pdf_files/ece/sem2/digital-systems.pdf",
+        "electronics": "/pdf_files/ece/sem2/electronics.pdf",
+        "previous_papers": "/pdf_files/ece/sem2/previous-papers.pdf"
+      }
+    }
+  }
+  
